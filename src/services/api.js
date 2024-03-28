@@ -1,7 +1,7 @@
 // services/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/exam';
+const API_URL = 'https://giddy-moth-toga.cyclic.app/api/exam';
 
 export const getAllExams = async () => {
   const response = await axios.get(`${API_URL}/get`);
